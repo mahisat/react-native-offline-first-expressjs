@@ -1,0 +1,30 @@
+{
+  "name": "react-native-offline-first-expressjs",
+  "description": "Offline first app example with React Native and Redux",
+  "version": "0.0.1",
+  "keywords": [
+    "react-native",
+    "react",
+    "redux",
+    "starter",
+    "offline-first",
+    "offline",
+    "persist",
+    "asyncstorage",
+    "redux-persist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahisat/react-native-offline-first-expressjs"
+  },
+  "author": {
+    "name": "Sathish Kumar",
+    "email": "sathishmecece@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "install": "cd ./app && npm i && cd ../server && npm i && cd ..",
+    "start": "cd ./app && npm start",
+    "server": "cd ./server && npm start"
+  }
+}
